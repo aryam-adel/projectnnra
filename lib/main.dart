@@ -131,7 +131,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 onPressed: () {
                   setState(() {
                     names.add(
-                      "I am Nafesa Rabeea Bezar",
+                      "I am Nafesa ,Aryam , Raja ",
                     );
                   });
                 },
@@ -164,7 +164,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     Column(
                       children: const [
                         Text(
-                            'Welcom to my App and my name is Nafesa Rabeea Bezar i am from yemen this the first Task in the flutter',
+                            'Welcom to our App and our names is Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -172,7 +172,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             )),
                         SizedBox(height: 10),
                         Text(
-                            'Welcom to my App and my name is Nafesa Rabeea Bezar i am from yemen this the first Task in the flutter',
+                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -180,7 +180,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             )),
                         SizedBox(height: 10),
                         Text(
-                            'Welcom to my App and my name is Nafesa Rabeea Bezar i am from yemen this the first Task in the flutter',
+                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -188,7 +188,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             )),
                         SizedBox(height: 10),
                         Text(
-                            'Welcom to my App and my name is Nafesa Rabeea Bezar i am from yemen this the first Task in the flutter',
+                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -196,7 +196,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             )),
                         SizedBox(height: 10),
                         Text(
-                            'Welcom to my App and my name is Nafesa Rabeea Bezar i am from yemen this the first Task in the flutter',
+                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -204,7 +204,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             )),
                         SizedBox(height: 10),
                         Text(
-                            'Welcom to my App and my name is Nafesa Rabeea Bezar i am from yemen this the first Task in the flutter',
+                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -212,7 +212,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             )),
                         SizedBox(height: 10),
                         Text(
-                            'Welcom to my App and my name is Nafesa Rabeea Bezar i am from yemen this the first Task in the flutter',
+                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -220,7 +220,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             )),
                         SizedBox(height: 10),
                         Text(
-                            'Welcom to my App and my name is Nafesa Rabeea Bezar i am from yemen this the first Task in the flutter',
+                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -228,7 +228,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             )),
                         SizedBox(height: 10),
                         Text(
-                            'Welcom to my App and my name is Nafesa Rabeea Bezar i am from yemen this the first Task in the flutter',
+                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -236,7 +236,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             )),
                         SizedBox(height: 10),
                         Text(
-                            'Welcom to my App and my name is Nafesa Rabeea Bezar i am from yemen this the first Task in the flutter',
+                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -244,7 +244,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             )),
                         SizedBox(height: 10),
                         Text(
-                            'Welcom to my App and my name is Nafesa Rabeea Bezar i am from yemen this the first Task in the flutter',
+                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -252,7 +252,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             )),
                         SizedBox(height: 10),
                         Text(
-                            'Welcom to my App and my name is Nafesa Rabeea Bezar i am from yemen this the first Task in the flutter',
+                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -260,7 +260,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             )),
                         SizedBox(height: 10),
                         Text(
-                            'Welcom to my App and my name is Nafesa Rabeea Bezar i am from yemen this the first Task in the flutter',
+                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -268,7 +268,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             )),
                         SizedBox(height: 10),
                         Text(
-                            'Welcom to my App and my name is Nafesa Rabeea Bezar i am from yemen this the first Task in the flutter',
+                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -276,7 +276,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             )),
                         SizedBox(height: 10),
                         Text(
-                            'Welcom to my App and my name is Nafesa Rabeea Bezar i am from yemen this the first Task in the flutter',
+                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -284,7 +284,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             )),
                         SizedBox(height: 10),
                         Text(
-                            'Welcom to my App and my name is Nafesa Rabeea Bezar i am from yemen this the first Task in the flutter',
+                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -292,7 +292,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             )),
                         SizedBox(height: 10),
                         Text(
-                            'Welcom to my App and my name is Nafesa Rabeea Bezar i am from yemen this the first Task in the flutter',
+                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -300,7 +300,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             )),
                         SizedBox(height: 10),
                         Text(
-                            'Welcom to my App and my name is Nafesa Rabeea Bezar i am from yemen this the first Task in the flutter',
+                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -308,7 +308,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             )),
                         SizedBox(height: 10),
                         Text(
-                            'Welcom to my App and my name is Nafesa Rabeea Bezar i am from yemen this the first Task in the flutter',
+                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
