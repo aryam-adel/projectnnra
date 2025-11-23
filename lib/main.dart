@@ -31,7 +31,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         backgroundColor: Colors.blue,
         title: const Text(
-          'Hadrami Stor',
+          'Hadrami Store for cheldern',
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
