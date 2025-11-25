@@ -31,7 +31,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         backgroundColor: Colors.blue,
         title: const Text(
-          'Hadrami Stor',
+          'Hadrami Store for cheldern',
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
@@ -77,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             DrawerHeader(
               decoration:
-                  const BoxDecoration(color: Color.fromARGB(255, 16, 155, 255)),
+                  const BoxDecoration(color: Color.fromARGB(255, 3, 34, 56)),
               child: const Text(
                 'القائمة الجانبية',
                 style: TextStyle(
@@ -89,7 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ListTile(
               leading: const Icon(Icons.home),
               title: const Text('Home',
-                  style: TextStyle(color: Colors.yellow, fontSize: 30)),
+                  style: TextStyle(color: Colors.yellow, fontSize: 25)),
               onTap: () {
                 Navigator.pop(context);
                 ScaffoldMessenger.of(context).showSnackBar(
@@ -99,7 +99,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ListTile(
               leading: const Icon(Icons.person),
               title: const Text('About Me',
-                  style: TextStyle(color: Colors.yellow, fontSize: 30)),
+                  style: TextStyle(color: Colors.yellow, fontSize: 25)),
               onTap: () {
                 Navigator.pop(context);
                 ScaffoldMessenger.of(context).showSnackBar(
@@ -109,7 +109,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ListTile(
               leading: const Icon(Icons.settings),
               title: const Text('Setting',
-                  style: TextStyle(color: Colors.yellow, fontSize: 30)),
+                  style: TextStyle(color: Colors.yellow, fontSize: 25)),
               onTap: () {
                 Navigator.pop(context);
                 ScaffoldMessenger.of(context).showSnackBar(
@@ -130,9 +130,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ElevatedButton(
                 onPressed: () {
                   setState(() {
-                    names.add(
-                      "I am Nafesa ,Aryam , Raja ",
-                    );
+                    names.add("I am Nafesa Rabeea Bezar-IT4-34");
                   });
                 },
                 style: ElevatedButton.styleFrom(
@@ -156,169 +154,58 @@ class _MyHomePageState extends State<MyHomePage> {
                   name,
                   style: const TextStyle(fontSize: 20),
                 ),
-              //تمرير أفقي وعمودي
-              SingleChildScrollView(
-                scrollDirection: Axis.horizontal, // تمرير أفقي
-                child: Row(
-                  children: [
-                    Column(
-                      children: const [
-                        Text(
-                            'Welcom to our App and our names is Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 255, 255, 255),
-                            )),
-                        SizedBox(height: 10),
-                        Text(
-                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 255, 255, 255),
-                            )),
-                        SizedBox(height: 10),
-                        Text(
-                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 255, 255, 255),
-                            )),
-                        SizedBox(height: 10),
-                        Text(
-                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 255, 255, 255),
-                            )),
-                        SizedBox(height: 10),
-                        Text(
-                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 255, 255, 255),
-                            )),
-                        SizedBox(height: 10),
-                        Text(
-                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 255, 255, 255),
-                            )),
-                        SizedBox(height: 10),
-                        Text(
-                            'Welcom to our App and our names are Nafesa ,Aryam , Raja,nosiba we are from yemen this the first Task in the flutter',
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 255, 255, 255),
-                            )),
-                        SizedBox(height: 10),
-                        Text(
-                            'Welcom to our App and our names are Nafesa ,Aryam , Raja , nosiba, we are from yemen this the first Task in the flutter',
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 255, 255, 255),
-                            )),
-                        SizedBox(height: 10),
-                        Text(
-                            'Welcom to our App and our names are Nafesa ,Aryam , Raja,nosiba  we are from yemen this the first Task in the flutter',
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 255, 255, 255),
-                            )),
-                        SizedBox(height: 10),
-                        Text(
-                            'Welcom to our App and our names are Nafesa ,Aryam , Raja ,nosiba we are from yemen this the first Task in the flutter',
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 255, 255, 255),
-                            )),
-                        SizedBox(height: 10),
-                        Text(
-                            'Welcom to our App and our names are Nafesa ,Aryam , Raja ,nosiba we are from yemen this the first Task in the flutter',
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 255, 255, 255),
-                            )),
-                        SizedBox(height: 10),
-                        Text(
-                            'Welcom to our App and our names are Nafesa ,Aryam , Raja ,nosiba we are from yemen this the first Task in the flutter',
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 255, 255, 255),
-                            )),
-                        SizedBox(height: 10),
-                        Text(
-                            'Welcom to our App and our names are Nafesa ,Aryam , Raja ,nosiba we are from yemen this the first Task in the flutter',
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 255, 255, 255),
-                            )),
-                        SizedBox(height: 10),
-                        Text(
-                            'Welcom to our App and our names are Nafesa ,Aryam , Raja ,nosiba we are from yemen this the first Task in the flutter',
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 255, 255, 255),
-                            )),
-                        SizedBox(height: 10),
-                        Text(
-                            'Welcom to our App and our names are Nafesa ,Aryam , Raja ,nosiba we are from yemen this the first Task in the flutter',
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 255, 255, 255),
-                            )),
-                        SizedBox(height: 10),
-                        Text(
-                            'Welcom to our App and our names are Nafesa ,Aryam , Raja ,nosiba we are from yemen this the first Task in the flutter',
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 255, 255, 255),
-                            )),
-                        SizedBox(height: 10),
-                        Text(
-                            'Welcom to our App and our names are Nafesa ,Aryam , Raja we are from yemen this the first Task in the flutter',
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 255, 255, 255),
-                            )),
-                        SizedBox(height: 10),
-                        Text(
-                            'Welcom to our App and our names are Nafesa ,Aryam , Raja ,nosiba we are from yemen this the first Task in the flutter',
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 255, 255, 255),
-                            )),
-                        SizedBox(height: 10),
-                        Text(
-                            'Welcom to our App and our names are Nafesa ,Aryam , Raja ,nosiba we are from yemen this the first Task in the flutter',
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 255, 255, 255),
-                            )),
-                        SizedBox(height: 10),
-                      ],
-                    ),
-                    const SizedBox(width: 30),
-                  ],
+                //تمرير أفقي وعمودي
+            SingleChildScrollView(
+                  scrollDirection: Axis.horizontal, // تمرير أفقي
+                  child: Row(
+                    children: [
+                      Column(
+                        children: const [
+                          Text('Welcome to our App and our names are Nafesa ,Aryam ,Raja, and Nosaiba ,We are from Yemen this is our first Task in the flutter', style: TextStyle(fontSize: 18)),
+                          SizedBox(height: 10),
+                          Text('Welcome to our App and our names are Nafesa ,Aryam ,Raja, and Nosaiba ,We are from Yemen this is our first Task in the flutter', style: TextStyle(fontSize: 18)),
+                          SizedBox(height: 10),
+                          Text('Welcome to our App and our names are Nafesa ,Aryam ,Raja, and Nosaiba ,We are from Yemen this is our first Task in the flutter', style: TextStyle(fontSize: 18)),
+                          SizedBox(height: 10),
+                          Text('Welcome to our App and our names are Nafesa ,Aryam ,Raja, and Nosaiba ,We are from Yemen this is our first Task in the flutter', style: TextStyle(fontSize: 18)),
+                          SizedBox(height: 10),
+                          Text('Welcome to our App and our names are Nafesa ,Aryam ,Raja, and Nosaiba ,We are from Yemen this is our first Task in the flutter', style: TextStyle(fontSize: 18)),
+                          SizedBox(height: 10),
+                          Text('Welcome to our App and our names are Nafesa ,Aryam ,Raja, and Nosaiba ,We are from Yemen this is our first Task in the flutter', style: TextStyle(fontSize: 18)),
+                          SizedBox(height: 10),
+                          Text('Welcome to our App and our names are Nafesa ,Aryam ,Raja, and Nosaiba ,We are from Yemen this is our first Task in the flutter', style: TextStyle(fontSize: 18)),
+                          SizedBox(height: 10),
+                          Text('Welcome to our App and our names are Nafesa ,Aryam ,Raja, and Nosaiba ,We are from Yemen this is our first Task in the flutter', style: TextStyle(fontSize: 18)),
+                          SizedBox(height: 10),
+                          Text('Welcome to our App and our names are Nafesa ,Aryam ,Raja, and Nosaiba ,We are from Yemen this is our first Task in the flutter', style: TextStyle(fontSize: 18)),
+                          SizedBox(height: 10),
+                          Text('Welcome to our App and our names are Nafesa ,Aryam ,Raja, and Nosaiba ,We are from Yemen this is our first Task in the flutter', style: TextStyle(fontSize: 18)),
+                          SizedBox(height: 10),
+                          Text('Welcome to our App and our names are Nafesa ,Aryam ,Raja, and Nosaiba ,We are from Yemen this is our first Task in the flutter', style: TextStyle(fontSize: 18)),
+                          SizedBox(height: 10),
+                          Text('Welcome to our App and our names are Nafesa ,Aryam ,Raja, and Nosaiba ,We are from Yemen this is our first Task in the flutter', style: TextStyle(fontSize: 18)),
+                          SizedBox(height: 10),
+                          Text('Welcome to our App and our names are Nafesa ,Aryam ,Raja, and Nosaiba ,We are from Yemen this is our first Task in the flutter', style: TextStyle(fontSize: 18)),
+                          SizedBox(height: 10),
+                          Text('Welcome to our App and our names are Nafesa ,Aryam ,Raja, and Nosaiba ,We are from Yemen this is our first Task in the flutter', style: TextStyle(fontSize: 18)),
+                          SizedBox(height: 10),
+                          Text('Welcome to our App and our names are Nafesa ,Aryam ,Raja, and Nosaiba ,We are from Yemen this is our first Task in the flutter', style: TextStyle(fontSize: 18)),
+                          SizedBox(height: 10),
+                          Text('Welcome to our App and our names are Nafesa ,Aryam ,Raja, and Nosaiba ,We are from Yemen this is our first Task in the flutter', style: TextStyle(fontSize: 18)),
+                          SizedBox(height: 10),
+                          Text('Welcome to our App and our names are Nafesa ,Aryam ,Raja, and Nosaiba ,We are from Yemen this is our first Task in the flutter', style: TextStyle(fontSize: 18)),
+                          SizedBox(height: 10),
+                          Text('Welcome to our App and our names are Nafesa ,Aryam ,Raja, and Nosaiba ,We are from Yemen this is our first Task in the flutter', style: TextStyle(fontSize: 18)),
+                          SizedBox(height: 10),
+                          Text('Welcome to our App and our names are Nafesa ,Aryam ,Raja, and Nosaiba ,We are from Yemen this is our first Task in the flutter', style: TextStyle(fontSize: 18)),
+                          SizedBox(height: 10),
+                        ],
+                      ),
+                      const SizedBox(width: 30),
+                      
+                      
+                    ],
+                  ),
                 ),
               ),
             ],
