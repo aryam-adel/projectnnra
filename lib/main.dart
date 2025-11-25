@@ -76,7 +76,8 @@ class _MyHomePageState extends State<MyHomePage> {
           padding: EdgeInsets.zero,
           children: [
             DrawerHeader(
-              decoration: const BoxDecoration(color: Color.fromARGB(255, 16, 155, 255)),
+              decoration:
+                  const BoxDecoration(color: Color.fromARGB(255, 3, 34, 56)),
               child: const Text(
                 'القائمة الجانبية',
                 style: TextStyle(
@@ -129,7 +130,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ElevatedButton(
                 onPressed: () {
                   setState(() {
-                    names.add("I am Nafesa Rabeea Bezar");
+                    names.add("I am Nafesa Rabeea Bezar-IT4-34");
                   });
                 },
                 style: ElevatedButton.styleFrom(
@@ -206,11 +207,11 @@ class _MyHomePageState extends State<MyHomePage> {
                     ],
                   ),
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
         ),
-      );
-    
+      ),
+    );
   }
 }
